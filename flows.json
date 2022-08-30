@@ -1,0 +1,56 @@
+[
+    {
+        "id": "f0ce12bd7c757483",
+        "type": "ui_switch",
+        "z": "9047e7bf3b19338a",
+        "name": "",
+        "label": "switch",
+        "tooltip": "",
+        "group": "bb0d2d38f2c34bf7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 230,
+        "y": 240,
+        "wires": [
+            [
+                "13c0947f35201761"
+            ]
+        ]
+    },
+    {
+        "id": "bb0d2d38f2c34bf7",
+        "type": "ui_group",
+        "name": "Rx",
+        "tab": "01afedd70f705703",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "01afedd70f705703",
+        "type": "ui_tab",
+        "name": "Flow 6 G8 - Comunicacion MQTT con ESPCAM32",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    }
+]
